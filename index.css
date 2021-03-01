@@ -1,0 +1,22 @@
+/* .project {
+    display: inline-block;
+} */
+.pro-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.project-item {
+    display: inline-block;
+    flex-grow: 1;
+    width: calc(100% * (1 / 3) - 10px - 1px);
+    min-height: 500px !important;
+}
+
+.project-item img {
+    box-shadow: 2px 5px 3px 0px rgba(0, 0, 0, 0.8);
+}
+
+/* .demo {
+    box-shadow: 2px 5px 3px 0px rgba(0, 0, 0, 0.5);
+} */
