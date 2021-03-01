@@ -1,6 +1,7 @@
-/* .project {
-    display: inline-block;
-} */
+html {
+    scroll-behavior: smooth;
+}
+
 .pro-row {
     display: flex;
     flex-wrap: wrap;
@@ -14,9 +15,5 @@
 }
 
 .project-item img {
-    box-shadow: 2px 5px 3px 0px rgba(0, 0, 0, 0.8);
+    box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.5);
 }
-
-/* .demo {
-    box-shadow: 2px 5px 3px 0px rgba(0, 0, 0, 0.5);
-} */
